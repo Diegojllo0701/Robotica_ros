@@ -2,6 +2,8 @@ package.xml
 setup.cfg
 setup.py
 launch/robot_launch_g07.launch.py
+launch/robot_msp3r.launch.py
+model/MS3R.urdf.xacro
 model/robot_car_g07.urdf.xacro
 model/rviz_config.rviz
 modelrobot_pkg_g07/__init__.py

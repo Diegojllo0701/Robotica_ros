@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_car">
+    
+    <xacro:property name="blx" value="${8/10}" />
+    <xacro:property name="bly" value="${8/10}" />
+    <xacro:property name="blz" value="${0.8/10}" />
+
+    <xacro:property name="plx" value="${2/10}" />
+    <xacro:property name="ply" value="${2/10}" />
+    <xacro:property name="plz" value="${9.6/10}" />
+
+    <xacro:property name="crad" value="${5/2/10}" />
+    <xacro:property name="clen" value="${1.25/10}" />
+
+    <xacro:property name="srad" value="${1.25/10}" />
+    <xacro:property name="slx" value="${(10-2.5/2)/10}" />
+
+    <xacro:macro name="brazo_macro" params="p_name p_lx p_ly p_lz">
+    <!-- ... -->
+    <link name="${p_name}">
+        <!-- ... -->
+        <visual>
+        <!-- ... -->
+            <geometry>
+                <box size="${p_lx} ${p_ly} ${p_lz}"/>
+                </geometry>
+                <origin xyz="${p_lx/2} 0 ${p_lz/2-blz}" rpy="0 0 0"/>
+            </visual>
+
+            <inertial>
+            <!-- ... -->
+                <mass value="1"/>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <inertia ixx="1.69" ixy="0" ixz="0" iyy="3.125" iyz="0" izz="1.69"/>
+            </inertial>
+
+            <collision>
+            <!-- ... -->
+                <geometry>
+                    <box size="${p_lx} ${p_ly} ${p_lz}"/>
+                </geometry>
+                <origin xyz="${p_lx/2} 0 ${p_lz/2}" rpy="-${pi/2} 0 0"/>
+            </collision>
+        </link>
+    </xacro:macro>
+    
+    <link name="base_link">
+        <!-- ... -->
+    </link>
+
+    <joint name="base_soporte_joint" type="fixed">
+        <!-- ... -->
+        <parent link="base_link"/>
+        <child link="soporte_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="soporte_link">
+        <!-- ... -->
+        <visual>
+        <!-- ... -->
+            <geometry>
+                <box size="${blx} ${bly} ${blz}"/>
+            </geometry>
+            <origin xyz="0 0 ${blz/2}" rpy="0 0 0"/>
+        </visual>
+
+        <inertial>
+        <!-- ... -->
+            <mass value="1"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+        </inertial>
+
+        <collision>
+        <!-- ... -->
+            <geometry>
+                <box size="${blx} ${bly} ${blz}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
+    </link>
+    <!-- ... -->
+
+    <joint name="soporte_brazo1_joint" type="fixed">
+    <!-- ... -->
+        <parent link="soporte_link"/>
+        <child link="brazo1_link"/>
+        <origin xyz="0 0 ${blz}" rpy="0 0 0"/>
+    </joint>
+
+    <xacro:brazo_macro p_name ="brazo1_link"
+                       p_lx="${plx}" 
+                       p_ly="${ply}"
+                       p_lz="${plz}"/>
+    
+    
+
+</robot>

@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.004953] (launch_pkg_g07) JobQueued: {'identifier': 'launch_pkg_g07', 'dependencies': OrderedDict()}
+[0.007084] (modelrobot_pkg_g07) JobQueued: {'identifier': 'modelrobot_pkg_g07', 'dependencies': OrderedDict()}
+[0.007313] (launch_pkg_g07) JobStarted: {'identifier': 'launch_pkg_g07'}
+[0.076168] (modelrobot_pkg_g07) JobStarted: {'identifier': 'modelrobot_pkg_g07'}
+[0.124068] (-) TimerEvent: {}
+[0.270205] (-) TimerEvent: {}
+[0.375173] (-) TimerEvent: {}
+[0.481488] (-) TimerEvent: {}
+[0.612128] (-) TimerEvent: {}
+[0.730119] (-) TimerEvent: {}
+[0.834414] (-) TimerEvent: {}
+[0.947572] (-) TimerEvent: {}
+[1.053143] (-) TimerEvent: {}
+[1.168077] (-) TimerEvent: {}
+[1.297633] (-) TimerEvent: {}
+[1.413714] (-) TimerEvent: {}
+[1.517125] (-) TimerEvent: {}
+[1.628750] (-) TimerEvent: {}
+[1.729495] (-) TimerEvent: {}
+[1.834533] (-) TimerEvent: {}
+[1.936143] (-) TimerEvent: {}
+[2.047663] (-) TimerEvent: {}
+[2.149913] (-) TimerEvent: {}
+[2.264951] (-) TimerEvent: {}
+[2.388445] (-) TimerEvent: {}
+[2.498046] (-) TimerEvent: {}
+[2.618638] (-) TimerEvent: {}
+[2.748868] (-) TimerEvent: {}
+[2.852892] (-) TimerEvent: {}
+[2.971236] (-) TimerEvent: {}
+[3.102409] (-) TimerEvent: {}
+[3.216051] (-) TimerEvent: {}
+[3.322684] (-) TimerEvent: {}
+[3.426700] (-) TimerEvent: {}
+[3.533741] (-) TimerEvent: {}
+[3.635240] (launch_pkg_g07) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/diego/ros2_ws/build/launch_pkg_g07/build', '--no-deps', 'install_data'], 'cwd': '/home/diego/ros2_ws/build/launch_pkg_g07', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'diego', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/diego', 'OLDPWD': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '1165', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/diego/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'diego', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/diego-VirtualBox:@/tmp/.ICE-unix/1099,unix/diego-VirtualBox:/tmp/.ICE-unix/1099', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4cca5670_261f_4c40_9a96_3bb2252a6195', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6Z7PB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/diego/ros2_ws/install/modelrobot_pkg_g07:/home/diego/ros2_ws/install/launch_pkg_g07:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/ros2_ws/build/launch_pkg_g07', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/diego/ros2_ws/build/launch_pkg_g07/prefix_override:/home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages:/home/diego/ros2_ws/build/modelrobot_pkg_g07:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:/home/diego/ros2_ws/build/launch_pkg_g07:/home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.639895] (-) TimerEvent: {}
+[3.738439] (modelrobot_pkg_g07) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/diego/ros2_ws/build/modelrobot_pkg_g07/build', '--no-deps', 'install_data'], 'cwd': '/home/diego/ros2_ws/build/modelrobot_pkg_g07', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'diego', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/diego', 'OLDPWD': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '1165', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/diego/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'diego', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/diego-VirtualBox:@/tmp/.ICE-unix/1099,unix/diego-VirtualBox:/tmp/.ICE-unix/1099', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4cca5670_261f_4c40_9a96_3bb2252a6195', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6Z7PB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/diego/ros2_ws/install/modelrobot_pkg_g07:/home/diego/ros2_ws/install/launch_pkg_g07:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/ros2_ws/build/modelrobot_pkg_g07', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:/home/diego/ros2_ws/build/modelrobot_pkg_g07:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:/home/diego/ros2_ws/build/launch_pkg_g07:/home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.754519] (-) TimerEvent: {}
+[3.922733] (-) TimerEvent: {}
+[4.029006] (-) TimerEvent: {}
+[4.167083] (-) TimerEvent: {}
+[4.283049] (-) TimerEvent: {}
+[4.398481] (-) TimerEvent: {}
+[4.519921] (launch_pkg_g07) StdoutLine: {'line': b'running develop\n'}
+[4.520648] (-) TimerEvent: {}
+[4.521106] (launch_pkg_g07) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.521472] (launch_pkg_g07) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.521638] (launch_pkg_g07) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.521753] (launch_pkg_g07) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.572470] (modelrobot_pkg_g07) StdoutLine: {'line': b'running develop\n'}
+[4.573163] (modelrobot_pkg_g07) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.573377] (modelrobot_pkg_g07) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.589944] (modelrobot_pkg_g07) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.590172] (modelrobot_pkg_g07) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.623091] (-) TimerEvent: {}
+[4.753542] (-) TimerEvent: {}
+[4.872863] (-) TimerEvent: {}
+[4.973293] (-) TimerEvent: {}
+[5.078935] (-) TimerEvent: {}
+[5.137836] (launch_pkg_g07) StdoutLine: {'line': b'running egg_info\n'}
+[5.138203] (launch_pkg_g07) StdoutLine: {'line': b'writing launch_pkg_g07.egg-info/PKG-INFO\n'}
+[5.140743] (launch_pkg_g07) StdoutLine: {'line': b'writing dependency_links to launch_pkg_g07.egg-info/dependency_links.txt\n'}
+[5.140948] (launch_pkg_g07) StdoutLine: {'line': b'writing entry points to launch_pkg_g07.egg-info/entry_points.txt\n'}
+[5.141108] (launch_pkg_g07) StdoutLine: {'line': b'writing requirements to launch_pkg_g07.egg-info/requires.txt\n'}
+[5.141246] (launch_pkg_g07) StdoutLine: {'line': b'writing top-level names to launch_pkg_g07.egg-info/top_level.txt\n'}
+[5.145002] (launch_pkg_g07) StdoutLine: {'line': b"reading manifest file 'launch_pkg_g07.egg-info/SOURCES.txt'\n"}
+[5.145326] (launch_pkg_g07) StdoutLine: {'line': b"writing manifest file 'launch_pkg_g07.egg-info/SOURCES.txt'\n"}
+[5.149034] (launch_pkg_g07) StdoutLine: {'line': b'running build_ext\n'}
+[5.158111] (launch_pkg_g07) StdoutLine: {'line': b'Creating /home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages/launch-pkg-g07.egg-link (link to .)\n'}
+[5.158628] (launch_pkg_g07) StdoutLine: {'line': b'\n'}
+[5.158734] (launch_pkg_g07) StdoutLine: {'line': b'Installed /home/diego/ros2_ws/build/launch_pkg_g07\n'}
+[5.158816] (launch_pkg_g07) StdoutLine: {'line': b'running install_data\n'}
+[5.181758] (-) TimerEvent: {}
+[5.225609] (modelrobot_pkg_g07) StdoutLine: {'line': b'running egg_info\n'}
+[5.260664] (modelrobot_pkg_g07) StdoutLine: {'line': b'writing modelrobot_pkg_g07.egg-info/PKG-INFO\n'}
+[5.279644] (modelrobot_pkg_g07) StdoutLine: {'line': b'writing dependency_links to modelrobot_pkg_g07.egg-info/dependency_links.txt\n'}
+[5.279784] (modelrobot_pkg_g07) StdoutLine: {'line': b'writing entry points to modelrobot_pkg_g07.egg-info/entry_points.txt\n'}
+[5.280144] (modelrobot_pkg_g07) StdoutLine: {'line': b'writing requirements to modelrobot_pkg_g07.egg-info/requires.txt\n'}
+[5.280249] (modelrobot_pkg_g07) StdoutLine: {'line': b'writing top-level names to modelrobot_pkg_g07.egg-info/top_level.txt\n'}
+[5.280524] (modelrobot_pkg_g07) StdoutLine: {'line': b"reading manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'\n"}
+[5.280641] (modelrobot_pkg_g07) StdoutLine: {'line': b"writing manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'\n"}
+[5.280722] (modelrobot_pkg_g07) StdoutLine: {'line': b'running build_ext\n'}
+[5.280907] (modelrobot_pkg_g07) StdoutLine: {'line': b'Creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages/modelrobot-pkg-g07.egg-link (link to .)\n'}
+[5.281099] (modelrobot_pkg_g07) StdoutLine: {'line': b'\n'}
+[5.281328] (modelrobot_pkg_g07) StdoutLine: {'line': b'Installed /home/diego/ros2_ws/build/modelrobot_pkg_g07\n'}
+[5.284188] (-) TimerEvent: {}
+[5.284429] (modelrobot_pkg_g07) StdoutLine: {'line': b'running install_data\n'}
+[5.284547] (modelrobot_pkg_g07) StdoutLine: {'line': b'copying model/MS3R.urdf.xacro -> /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/modelrobot_pkg_g07/model\n'}
+[5.284867] (launch_pkg_g07) CommandEnded: {'returncode': 0}
+[5.407663] (-) TimerEvent: {}
+[5.484815] (launch_pkg_g07) JobEnded: {'identifier': 'launch_pkg_g07', 'rc': 0}
+[5.502426] (modelrobot_pkg_g07) CommandEnded: {'returncode': 0}
+[5.511947] (-) TimerEvent: {}
+[5.605041] (modelrobot_pkg_g07) JobEnded: {'identifier': 'modelrobot_pkg_g07', 'rc': 0}
+[5.613113] (-) TimerEvent: {}
+[5.618114] (-) EventReactorShutdown: {}

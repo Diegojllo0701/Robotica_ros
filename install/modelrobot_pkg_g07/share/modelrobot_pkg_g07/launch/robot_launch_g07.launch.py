@@ -12,7 +12,7 @@ from launch.conditions import IfCondition, UnlessCondition
 import xacro
 
 pkg_folder = 'modelrobot_pkg_g07'
-robot_file = 'robot_car_g07.urdf.xacro'
+robot_file = 'MS3R.urdf.xacro'
 
 def generate_launch_description():
     pkg_path = os.path.join(get_package_share_path(pkg_folder))

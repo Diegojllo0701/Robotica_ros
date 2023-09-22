@@ -1,0 +1,21 @@
+[2.183s] Invoking command in '/home/diego/ros2_ws/build/modelrobot_pkg_g07': PYTHONPATH=/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/modelrobot_pkg_g07/build --no-deps install_data
+[2.690s] running develop
+[2.693s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.693s]   warnings.warn(
+[2.696s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.697s]   warnings.warn(
+[3.045s] running egg_info
+[3.045s] writing modelrobot_pkg_g07.egg-info/PKG-INFO
+[3.045s] writing dependency_links to modelrobot_pkg_g07.egg-info/dependency_links.txt
+[3.053s] writing entry points to modelrobot_pkg_g07.egg-info/entry_points.txt
+[3.060s] writing requirements to modelrobot_pkg_g07.egg-info/requires.txt
+[3.069s] writing top-level names to modelrobot_pkg_g07.egg-info/top_level.txt
+[3.081s] reading manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[3.085s] writing manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[3.123s] running build_ext
+[3.124s] Creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages/modelrobot-pkg-g07.egg-link (link to .)
+[3.126s] 
+[3.126s] Installed /home/diego/ros2_ws/build/modelrobot_pkg_g07
+[3.126s] running install_data
+[3.126s] copying model/MS3R.urdf.xacro -> /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/modelrobot_pkg_g07/model
+[3.208s] Invoked command in '/home/diego/ros2_ws/build/modelrobot_pkg_g07' returned '0': PYTHONPATH=/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/modelrobot_pkg_g07/build --no-deps install_data
