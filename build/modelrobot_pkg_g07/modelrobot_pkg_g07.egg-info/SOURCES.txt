@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/robot_launch_g07.launch.py
+model/robot_car_g07.urdf.xacro
+model/rviz_config.rviz
+modelrobot_pkg_g07/__init__.py
+modelrobot_pkg_g07.egg-info/PKG-INFO
+modelrobot_pkg_g07.egg-info/SOURCES.txt
+modelrobot_pkg_g07.egg-info/dependency_links.txt
+modelrobot_pkg_g07.egg-info/entry_points.txt
+modelrobot_pkg_g07.egg-info/requires.txt
+modelrobot_pkg_g07.egg-info/top_level.txt
+modelrobot_pkg_g07.egg-info/zip-safe
+resource/modelrobot_pkg_g07

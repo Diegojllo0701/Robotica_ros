@@ -1,0 +1,20 @@
+[1.201s] Invoking command in '/home/diego/ros2_ws/build/modelrobot_pkg_g07': PYTHONPATH=/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/modelrobot_pkg_g07/build --no-deps install_data
+[1.609s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.609s]   warnings.warn(
+[1.609s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.609s]   warnings.warn(
+[1.609s] running develop
+[1.858s] running egg_info
+[1.858s] writing modelrobot_pkg_g07.egg-info/PKG-INFO
+[1.860s] writing dependency_links to modelrobot_pkg_g07.egg-info/dependency_links.txt
+[1.865s] writing entry points to modelrobot_pkg_g07.egg-info/entry_points.txt
+[1.866s] writing requirements to modelrobot_pkg_g07.egg-info/requires.txt
+[1.866s] writing top-level names to modelrobot_pkg_g07.egg-info/top_level.txt
+[1.866s] reading manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[1.868s] writing manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[1.870s] running build_ext
+[1.871s] Creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages/modelrobot-pkg-g07.egg-link (link to .)
+[1.872s] 
+[1.872s] Installed /home/diego/ros2_ws/build/modelrobot_pkg_g07
+[1.872s] running install_data
+[1.941s] Invoked command in '/home/diego/ros2_ws/build/modelrobot_pkg_g07' returned '0': PYTHONPATH=/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/modelrobot_pkg_g07/build --no-deps install_data

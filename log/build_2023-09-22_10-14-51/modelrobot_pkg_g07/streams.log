@@ -1,0 +1,27 @@
+[1.023s] Invoking command in '/home/diego/ros2_ws/build/modelrobot_pkg_g07': PYTHONPATH=/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/modelrobot_pkg_g07/build --no-deps install_data
+[1.431s] running develop
+[1.432s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.432s]   warnings.warn(
+[1.434s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.434s]   warnings.warn(
+[1.658s] running egg_info
+[1.658s] creating modelrobot_pkg_g07.egg-info
+[1.660s] writing modelrobot_pkg_g07.egg-info/PKG-INFO
+[1.660s] writing dependency_links to modelrobot_pkg_g07.egg-info/dependency_links.txt
+[1.661s] writing entry points to modelrobot_pkg_g07.egg-info/entry_points.txt
+[1.661s] writing requirements to modelrobot_pkg_g07.egg-info/requires.txt
+[1.662s] writing top-level names to modelrobot_pkg_g07.egg-info/top_level.txt
+[1.665s] writing manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[1.670s] reading manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[1.681s] writing manifest file 'modelrobot_pkg_g07.egg-info/SOURCES.txt'
+[1.682s] running build_ext
+[1.683s] Creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages/modelrobot-pkg-g07.egg-link (link to .)
+[1.684s] 
+[1.685s] Installed /home/diego/ros2_ws/build/modelrobot_pkg_g07
+[1.685s] running install_data
+[1.685s] creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/ament_index
+[1.685s] creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/ament_index/resource_index
+[1.685s] creating /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/ament_index/resource_index/packages
+[1.685s] copying resource/modelrobot_pkg_g07 -> /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/ament_index/resource_index/packages
+[1.685s] copying package.xml -> /home/diego/ros2_ws/install/modelrobot_pkg_g07/share/modelrobot_pkg_g07
+[1.773s] Invoked command in '/home/diego/ros2_ws/build/modelrobot_pkg_g07' returned '0': PYTHONPATH=/home/diego/ros2_ws/build/modelrobot_pkg_g07/prefix_override:/home/diego/ros2_ws/install/modelrobot_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/modelrobot_pkg_g07/build --no-deps install_data

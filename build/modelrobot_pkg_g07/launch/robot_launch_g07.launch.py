@@ -1,0 +1,1 @@
+/home/diego/ros2_ws/src/modelrobot_pkg_g07/launch/robot_launch_g07.launch.py
