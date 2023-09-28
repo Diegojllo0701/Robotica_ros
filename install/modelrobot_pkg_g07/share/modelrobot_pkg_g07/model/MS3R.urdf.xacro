@@ -86,14 +86,42 @@
     <!-- ... -->
         <parent link="soporte_link"/>
         <child link="brazo1_link"/>
-        <origin xyz="0 0 ${blz}" rpy="0 0 0"/>
+        <origin xyz="${-plx/2} 0 ${blz}" rpy="0 0 0"/>
     </joint>
 
     <xacro:brazo_macro p_name ="brazo1_link"
                        p_lx="${plx}" 
                        p_ly="${ply}"
                        p_lz="${plz}"/>
-    
-    
+
+    <joint name="brazo1_brazo2_joint" type="continuous">
+    <!-- ... -->
+        <parent link="brazo1_link"/>
+        <child link="brazo2_link"/>
+        <origin xyz="${-plx} 0 ${plz - 2*blz}" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="1" lower="0" upper="${2*pi}" velocity="1"/>
+        <dynamics damping="1" friction="1"/>  
+    </joint>
+
+    <xacro:brazo_macro p_name ="brazo2_link"
+                       p_lx="${plx}" 
+                       p_ly="${ply}"
+                       p_lz="${plz}"/>
+
+    <joint name="brazo2_brazo3_joint" type="continuous">
+    <!-- ... -->
+        <parent link="brazo2_link"/>
+        <child link="brazo3_link"/>
+        <origin xyz="${plx} 0 ${plz - 2*blz}" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="1" lower="0" upper="${2*pi}" velocity="1"/>
+        <dynamics damping="1" friction="1"/>  
+    </joint>
+
+    <xacro:brazo_macro p_name ="brazo3_link"
+                       p_lx="${plx}" 
+                       p_ly="${ply}"
+                       p_lz="${plz}"/>
 
 </robot>

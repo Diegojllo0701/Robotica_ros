@@ -1,0 +1,20 @@
+[3.617s] Invoking command in '/home/diego/ros2_ws/build/launch_pkg_g07': PYTHONPATH=/home/diego/ros2_ws/build/launch_pkg_g07/prefix_override:/home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/launch_pkg_g07/build --no-deps install_data
+[4.502s] running develop
+[4.509s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.510s]   warnings.warn(
+[4.512s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.513s]   warnings.warn(
+[5.044s] running egg_info
+[5.049s] writing launch_pkg_g07.egg-info/PKG-INFO
+[5.049s] writing dependency_links to launch_pkg_g07.egg-info/dependency_links.txt
+[5.049s] writing entry points to launch_pkg_g07.egg-info/entry_points.txt
+[5.050s] writing requirements to launch_pkg_g07.egg-info/requires.txt
+[5.050s] writing top-level names to launch_pkg_g07.egg-info/top_level.txt
+[5.055s] reading manifest file 'launch_pkg_g07.egg-info/SOURCES.txt'
+[5.055s] writing manifest file 'launch_pkg_g07.egg-info/SOURCES.txt'
+[5.055s] running build_ext
+[5.060s] Creating /home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages/launch-pkg-g07.egg-link (link to .)
+[5.060s] 
+[5.060s] Installed /home/diego/ros2_ws/build/launch_pkg_g07
+[5.060s] running install_data
+[5.206s] Invoked command in '/home/diego/ros2_ws/build/launch_pkg_g07' returned '0': PYTHONPATH=/home/diego/ros2_ws/build/launch_pkg_g07/prefix_override:/home/diego/ros2_ws/install/launch_pkg_g07/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/diego/ros2_ws/build/launch_pkg_g07/build --no-deps install_data
