@@ -3,7 +3,10 @@ setup.cfg
 setup.py
 launch/robot_launch_g07.launch.py
 launch/robot_msp3r.launch.py
+launch/simulator_g07.launch.py
+model/Cuerpo1.stl
 model/MS3R.urdf.xacro
+model/herramienta.stl
 model/msp_config.rviz
 model/robot_car_g07.urdf.xacro
 model/rviz_config.rviz

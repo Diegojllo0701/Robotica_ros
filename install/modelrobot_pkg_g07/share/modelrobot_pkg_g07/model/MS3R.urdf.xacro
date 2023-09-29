@@ -124,4 +124,41 @@
                        p_ly="${ply}"
                        p_lz="${plz}"/>
 
+    <joint name="brazo3_brazo4_joint" type="continuous">
+    <!-- ... -->
+        <parent link="brazo3_link"/>
+        <child link="brazo4_link"/>
+        <origin xyz="${plx} 0 ${plz - 2*blz}" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="1" lower="0" upper="${2*pi}" velocity="1"/>
+        <dynamics damping="1" friction="1"/>  
+    </joint>
+
+
+    <link name="brazo4">
+        <!-- ... -->
+        <visual>
+        <!-- ... -->
+            <geometry>
+                <mesh filename="package://model/Cuerpo1.stl" scale="0.1 0.1 0.1"/>
+            </geometry>
+            <origin xyz="${plx/2} 0 ${plz/2-blz}" rpy="0 0 0"/>
+
+            <inertial>
+            <!-- ... -->
+                <mass value="1"/>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <inertia ixx="1.69" ixy="0" ixz="0" iyy="3.125" iyz="0" izz="1.69"/>
+            </inertial>
+
+            <collision>
+            <!-- ... -->
+                <geometry>
+                    <mesh filename="package://model/Cuerpo1.stl" scale="0.1 0.1 0.1"/>
+                </geometry>
+                <origin xyz="${plx/2} 0 ${plz/2-blz}" rpy="0 0 0"/>
+            </collision>
+    </link>
+
+
 </robot>
